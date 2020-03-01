@@ -1,0 +1,105 @@
+year,state,office,district,stage,forecast_final,actual_result,forecast_error
+2016,IL,State Senate,23,general,0.51,0.51,0
+2016,IL,State Senate,28,general,0.59,0.54,0.05
+2016,IL,State Senate,29,general,0.6,0.59,0.01
+2016,IL,State Senate,31,general,0.52,0.54,0.02
+2016,IL,State Senate,38,general,0.38,0.42,0.04
+2016,IL,State Senate,49,general,0.53,0.53,0
+2016,IL,State Senate,52,general,0.56,0.61,0.05
+2016,IL,State Senate,58,general,0.45,0.39,0.06
+2016,IL,State Senate,59,general,0.5,0.45,0.05
+2016,WA,US House,7,general,0.56,0.56,0
+2016,WA,Superintendent of Public Instruction,WA,general,0.51,0.5,0.01
+2016,CA,Oakland USD,5,general,0.39,0.36,0.03
+2016,CA,Oakland USD,7,general,0.63,0.66,0.03
+2017,DE,State Senate,10,general,0.56,0.58,0.02
+2017,CA,US House,34,primary,0.03,0.02,0.01
+2017,CA,Los Angeles USD,4,primary,0.31,0.31,0
+2017,CA,Los Angeles USD,6,primary,0.26,0.31,0.05
+2017,WA,State Senate,45,primary,0.52,0.52,0
+2017,WA,State Senate,45,general,0.53,0.55,0.02
+2017,VA,State House,56,primary,0.5,0.51,0.01
+2017,VA,State House,56,general,0.39,0.4,0.01
+2017,GA,US House,46,general,0.46,0.48,0.02
+2018,IL,Governor,IL,primary,0.28,0.27,0.01
+2019,KY,Agriculture Commissioner,KY,general,0.36,0.39,0.03
+2019,KY,Attorney General,KY,general,0.47,0.42,0.05
+2019,KY,Auditor,KY,general,0.43,0.41,0.02
+2019,KY,Governor,KY,general,0.45,0.49,0.04
+2019,KY,Secretary of State,KY,general,0.48,0.47,0.01
+2019,KY,Treasurer,KY,general,0.4,0.39,0.01
+2019,VA,House of Delegates,2,general,0.59,0.6,0.01
+2019,VA,House of Delegates,4,general,0.36,0.37,0.01
+2019,VA,House of Delegates,7,general,0.33,0.33,0
+2019,VA,House of Delegates,8,general,0.36,0.33,0.03
+2019,VA,House of Delegates,10,general,0.53,0.52,0.01
+2019,VA,House of Delegates,12,general,0.6,0.53,0.07
+2019,VA,House of Delegates,13,general,0.61,0.55,0.06
+2019,VA,House of Delegates,14,general,0.42,0.38,0.04
+2019,VA,House of Delegates,15,general,0.29,0.25,0.04
+2019,VA,House of Delegates,18,general,0.44,0.38,0.06
+2019,VA,House of Delegates,20,general,0.51,0.41,0.1
+2019,VA,House of Delegates,21,general,0.58,0.54,0.04
+2019,VA,House of Delegates,23,general,0.37,0.35,0.02
+2019,VA,House of Delegates,25,general,0.36,0.4,0.04
+2019,VA,House of Delegates,26,general,0.43,0.45,0.02
+2019,VA,House of Delegates,27,general,0.49,0.49,0
+2019,VA,House of Delegates,28,general,0.51,0.51,0
+2019,VA,House of Delegates,29,general,0.4,0.35,0.05
+2019,VA,House of Delegates,31,general,0.6,0.52,0.08
+2019,VA,House of Delegates,33,general,0.46,0.43,0.03
+2019,VA,House of Delegates,34,general,0.67,0.58,0.09
+2019,VA,House of Delegates,40,general,0.48,0.52,0.04
+2019,VA,House of Delegates,44,general,0.69,0.7,0.01
+2019,VA,House of Delegates,50,general,0.55,0.53,0.02
+2019,VA,House of Delegates,51,general,0.58,0.54,0.04
+2019,VA,House of Delegates,52,general,0.73,0.73,0
+2019,VA,House of Delegates,55,general,0.43,0.39,0.04
+2019,VA,House of Delegates,56,general,0.38,0.38,0
+2019,VA,House of Delegates,58,general,0.4,0.37,0.03
+2019,VA,House of Delegates,59,general,0.42,0.36,0.06
+2019,VA,House of Delegates,60,general,0.34,0.33,0.01
+2019,VA,House of Delegates,62,general,0.46,0.44,0.02
+2019,VA,House of Delegates,64,general,0.38,0.39,0.01
+2019,VA,House of Delegates,65,general,0.34,0.34,0
+2019,VA,House of Delegates,66,general,0.43,0.47,0.04
+2019,VA,House of Delegates,68,general,0.55,0.54,0.01
+2019,VA,House of Delegates,72,general,0.57,0.53,0.04
+2019,VA,House of Delegates,73,general,0.48,0.52,0.04
+2019,VA,House of Delegates,75,general,0.55,0.51,0.04
+2019,VA,House of Delegates,76,general,0.39,0.56,0.17
+2019,VA,House of Delegates,80,general,0.59,0.66,0.07
+2019,VA,House of Delegates,81,general,0.38,0.47,0.09
+2019,VA,House of Delegates,82,general,0.37,0.4,0.03
+2019,VA,House of Delegates,83,general,0.46,0.5,0.04
+2019,VA,House of Delegates,84,general,0.47,0.48,0.01
+2019,VA,House of Delegates,85,general,0.5,0.51,0.01
+2019,VA,House of Delegates,87,general,0.66,0.62,0.04
+2019,VA,House of Delegates,88,general,0.46,0.44,0.02
+2019,VA,House of Delegates,91,general,0.61,0.54,0.07
+2019,VA,House of Delegates,93,general,0.62,0.55,0.07
+2019,VA,House of Delegates,94,general,0.48,0.57,0.09
+2019,VA,House of Delegates,96,general,0.47,0.46,0.01
+2019,VA,House of Delegates,98,general,0.35,0.31,0.04
+2019,VA,House of Delegates,99,general,0.4,0.37,0.03
+2019,VA,House of Delegates,100,general,0.51,0.48,0.03
+2019,VA,State Senate,3,general,0.33,0.38,0.05
+2019,VA,State Senate,4,general,0.35,0.36,0.01
+2019,VA,State Senate,6,general,0.59,0.59,0
+2019,VA,State Senate,7,general,0.53,0.49,0.04
+2019,VA,State Senate,8,general,0.43,0.47,0.04
+2019,VA,State Senate,10,general,0.48,0.54,0.06
+2019,VA,State Senate,11,general,0.47,0.45,0.02
+2019,VA,State Senate,12,general,0.49,0.49,0
+2019,VA,State Senate,13,general,0.57,0.54,0.03
+2019,VA,State Senate,14,general,0.29,0.39,0.1
+2019,VA,State Senate,15,general,0.35,0.31,0.04
+2019,VA,State Senate,17,general,0.48,0.48,0
+2019,VA,State Senate,22,general,0.36,0.37,0.01
+2019,VA,State Senate,24,general,0.33,0.28,0.05
+2019,VA,State Senate,26,general,0.33,0.35,0.02
+2019,VA,State Senate,27,general,0.4,0.35,0.05
+2019,VA,State Senate,28,general,0.46,0.42,0.04
+2019,VA,State Senate,32,general,0.71,0.73,0.02
+2019,VA,State Senate,33,general,0.68,0.64,0.04
+2019,VA,State Senate,39,general,0.66,0.65,0.01
