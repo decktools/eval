@@ -13,27 +13,27 @@ We plan to use this repo to share evaluations of our predictions. And this READM
 
 ## Forecast accuracy
 
-In `forecast-error.csv`, we share the forecasts we've published since 2019 alongside actual results and the mean absolute error of our forecasts. On average, our forecasts have been off by 3.7% and 95% of our forecasts have fallen within our 95% confidence interval.
+In `forecast-error.csv`, we share the forecasts we've published since 2019 alongside actual results and the absolute errors of our forecasts. Our forecasts' median absolute error has been 3.6% and 95% of our forecasts have fallen within our 95% confidence interval.
 
-One common question we get is whether our forecasts are more accurate in larger districts. Our evaluation data shows us that district size is not a factor in our accuracy:
+One common question we get is whether our forecasts are more accurate in larger districts. Our evaluation data shows us that district size is not a clear factor in our accuracy:
 
-**Mean absolute forecast error by district size**
-| District type  | Mean absolute error |
+**Median absolute forecast error by district size**
+| District type  | Median absolute error |
 | --- | :---: |
-| Statewide  | 3.6%  |
-| US House  | 3.9%  |
-| State Senate  | 3.5%  |
-| State House  | 3.7%  |
+| Statewide  | 3.3%  |
+| US House  | 4.1%  |
+| State Senate  | 3.6%  |
+| State House  | 3.6%  |
 
 However, there are races where our forecasts perform better! For example, here's a breakdown by the size of the margin of victory:
 
-| Margin size  | Mean absolute error |
+| Margin size  | Median absolute error |
 | --- | :---: |
-| Less than 5%  | 3.3%  |
-| 5% to 10%  | 3.4%  |
-| 11% to 20%  | 3.5%  |
-| 21% to 40%  | 3.9%  |
-| More than 40%  | 4.1%  |
+| Less than 5%  | 3.0%  |
+| 5% to 10%  | 3.3%  |
+| 11% to 20%  | 3.1%  |
+| 21% to 40%  | 3.5%  |
+| More than 40%  | 4.9%  |
 
 Often, when our forecasts miss badly, it's because of a bug in the data we're applying our forecasting models to -- such as mislabled media data or mismatched finance data. If you see any interesting patterns while inspecting this evaluation data, please let us know!
 
