@@ -13,29 +13,27 @@ We plan to use this repo to share evaluations of our predictions. And this READM
 
 ## Forecast accuracy
 
-In `forecast-error.csv`, we share the forecasts we've published since 2019 alongside actual results and the absolute errors of our forecasts. Our forecasts' median absolute error has been 3.6% and 95% of our forecasts have fallen within our 95% confidence interval.
+In `forecast-error.csv`, we share the forecasts we've published since 2019 alongside actual results and the absolute errors of our forecasts. Our forecasts' median absolute error has been 4% and 95% of our forecasts have fallen within our 95% confidence interval.
 
 One common question we get is whether our forecasts are more accurate in larger districts. Our evaluation data shows us that district size is not a clear factor in our accuracy:
 
 **Median absolute forecast error by district size**
 | District type  | Median absolute error |
 | --- | :---: |
-| Statewide  | 3.3%  |
-| US House  | 4.1%  |
-| State Senate  | 3.6%  |
-| State House  | 3.6%  |
+| Statewide  | 4.3%  |
+| US House  | 4.3%  |
+| State Senate  | 4.6%  |
+| State House  | 3.8%  |
 
-However, there are races where our forecasts perform better! For example, here's a breakdown by the size of the margin of victory:
+However, there is a group of races where our forecasts clearly perform better: more competitive ones. For example, here's a breakdown of our median error by the size of the win margin:
 
 | Margin size  | Median absolute error |
 | --- | :---: |
-| Less than 5%  | 3.0%  |
-| 5% to 10%  | 3.3%  |
-| 11% to 20%  | 3.1%  |
-| 21% to 40%  | 3.5%  |
-| More than 40%  | 4.9%  |
+| Less than 20%  | 3.3%  |
+| 21% to 40%  | 4.0%  |
+| More than 40%  | 5.9%  |
 
-Often, when our forecasts miss badly, it's because of a bug in the data we're applying our forecasting models to -- such as mislabled media data or mismatched finance data. If you see any interesting patterns while inspecting this evaluation data, please let us know!
+We believe this is because more of the context data our models rely on -- including media coverage and fundraising data -- is available in these races. Often, when our forecasts miss badly, it's because of a bug in the data we're applying our forecasting models to -- such as mislabled media data or mismatched finance data. If you see any interesting patterns while inspecting this evaluation data, please let us know!
 
 More details on our blog: 
 - [The role we played in the 2020 election](https://medium.com/obso-deck/the-role-we-played-in-the-2020-election-d7cc772d10c7?source=friends_link&sk=c289145d2f8c850e6ccda840c50f9593)
